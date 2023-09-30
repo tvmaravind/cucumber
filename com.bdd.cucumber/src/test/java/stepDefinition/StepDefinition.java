@@ -17,7 +17,7 @@ public class StepDefinition {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Downloads\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://demo.guru99.com/test/newtours/");
-		
+		 System.out.println("hello");
 		
 	}
 	@When("User enters UserName and Password")
